@@ -93,6 +93,18 @@ let questions : [QuestionViewController] = [
         ]
     ),
     
+    PickerQuestionViewController(
+        question: "What is your favorite subject?",
+        answers: [
+            Answer(answer: "English", animals: [.rabbit]),
+            Answer(answer: "Math",    animals: [.cat]),
+            Answer(answer: "History", animals: [.rabbit, .turtle]),
+            Answer(answer: "Art",     animals: [.dog]),
+            Answer(answer: "Science", animals: [.rabbit, .turtle])
+            
+        ]
+    )
+    
 ];
 
 
