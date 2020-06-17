@@ -44,7 +44,7 @@ let questions : [QuestionViewController] = [
         ]
     ),
     
-    SingleQuestionViewController(
+    MultipleQuestionViewController(
         question: "Which activities do you enjoy?",
         answers: [
             Answer(answer: "Swiming", animals: [.turtle]),
@@ -54,7 +54,7 @@ let questions : [QuestionViewController] = [
         ]
     ),
     
-    SingleQuestionViewController(
+    FloatQuestionViewController(
         question: "How much do you enjoy car rides?",
         answers: [
             Answer(answer: "I dislike them", animals: [.cat]),
